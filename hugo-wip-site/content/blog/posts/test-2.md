@@ -1,5 +1,5 @@
 ---
-title: "test"
+title: "test-2"
 date: 2022-06-14T21:00:21-05:00
 subpage: "blog"
 aside: "viewing blog post..."
@@ -7,7 +7,7 @@ type: "blog/posts"
 layout: blog-single
 
 draft: true
-categories: ["announcements"]
+categories: ["cat2"]
 excerpt: "excerpt goes here"
 ---
 # header goes here
