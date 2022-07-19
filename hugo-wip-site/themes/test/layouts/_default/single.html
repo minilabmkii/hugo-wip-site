@@ -1,0 +1,12 @@
+{{ define "main" }}
+<h1 id="gallery-header">{{ .Params.subpage }}</h1>
+<article>
+<h1 id="title">{{ .Title }}</h1>
+{{ .Content }}
+</article>
+{{ end }}
+{{ define "aside" }}
+<aside>
+	<h3>{{ .Params.aside }}</h3>
+</aside>
+{{ end }}
