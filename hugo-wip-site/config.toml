@@ -1,0 +1,16 @@
+baseURL = 'http://example.com'
+languageCode = 'en-us'
+title = 'hugo wip site'
+theme = 'test'
+
+[menu]
+  [[menu.main]]
+    name = "blog"
+    url = "/blog/"
+    weight = 1
+
+[taxonomies]
+  category = 'categories'
+
+[permalinks]
+  categories = 'blog/categories/:slug/'
